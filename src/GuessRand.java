@@ -5,7 +5,7 @@ public class GuessRand {
 		int rand = 0;
 		boolean success = false;
 		// Instantiate (create) a new Random() object 'r'
-		rand = (100) + 1; // Get a random number between 1-100
+		rand = r.nextInt (100) + 1; // Get a random number between 1-100
 		
 		while (     // loop until 'success' is true. ) {
 			int guess = 0;
